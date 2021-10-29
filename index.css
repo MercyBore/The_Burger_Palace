@@ -29,17 +29,31 @@ h4{
 ul{
     float: right;
     display: inline-flex;
+    border: 10px ;
   
     
 }
-a{
+.order{
     background-color:coral;
     border: solid 10px coral; border-radius:  20px 20px 0px 20px;
     text-align: center;
     height: 20px;
-    width: 70px;
+    width: 80px;
     margin: 20px;
     text-decoration: white;
     
     
+}
+.diagonal{
+    background-color: white;
+  background-image: -webkit-linear-gradient(160deg,#F6B400 50%, white 50%);
+  min-height: 200px;
+}
+#b1{
+    position: absolute;
+    right: 200px;
+    height: 200px;
+    width: 100px;
+  
+  
 }
