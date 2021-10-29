@@ -1,9 +1,50 @@
+iframe{
+    width: 50px;
+    height: 50px;
+    display: inline;
+    position: relative;
+  
+    
+}
 .burger{
-    font-size: 20px;
+    font-size: 30px;
+font-weight: bolder;
+font-style: oblique;
+}
+ul{
+    text-align: left;
+
+ }
+
+
+h1{
+    display: block;
+    margin-left: 20px;
 
 }
-iframe{
-    width: 30px;
-    height: 30px;
-
-    ;}
+h4{
+    display: block;
+    margin-left: 20px;
+}
+ul{
+    float: right;
+    display: inline-flex;
+  
+    
+}
+a{
+    background-color:coral;
+    border: solid 10px coral; border-radius:  20px 20px 0px 20px;
+    text-align: center;
+    height: 20px;
+    width: 70px;
+    margin: 20px;
+    text-decoration: white;
+    
+    
+}
+.diagonal{
+    background-color: white;
+  background-image: -webkit-linear-gradient(160deg,#F6B400 50%, white 50%);
+  min-height: 40px;
+}
