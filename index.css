@@ -43,8 +43,3 @@ a{
     
     
 }
-.diagonal{
-    background-color: white;
-  background-image: -webkit-linear-gradient(160deg,#F6B400 50%, white 50%);
-  min-height: 40px;
-}
