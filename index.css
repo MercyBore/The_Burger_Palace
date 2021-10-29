@@ -10,9 +10,14 @@ iframe{
     font-size: 30px;
 font-weight: bolder;
 font-style: oblique;
+font-family: "poppins";
 }
 ul{
     text-align: left;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    font-size: 20px;
 
  }
 
@@ -46,14 +51,14 @@ ul{
 }
 .diagonal{
     background-color: white;
-  background-image: -webkit-linear-gradient(160deg,#F6B400 50%, white 50%);
-  min-height: 200px;
+    background-image: -webkit-linear-gradient(160deg,#F6B400 50%, white 50%);
+    min-height: 300px;
+    top: 1px;
 }
 #b1{
     position: absolute;
     right: 200px;
     height: 200px;
     width: 100px;
-  
-  
+
 }
