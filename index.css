@@ -75,11 +75,11 @@ ul{
 }
 h3{
     display: inline;
-    padding: 1px; padding-bottom: 150px; padding-right: 70px; padding-left: 30px;
-    width: 70px;
-    margin: 60px;
+    padding: 1px; padding-bottom: 80px; padding-right: 40px; padding-left: 20px;
+    width: 20px;
+    margin: 30px;
     border: 1px solid green;border-radius: 15px;
-    background-color: rgb(175, 238, 175);
+    background-color: rgb(203, 238, 203);
 }
 .row3{
     display: table-row;
@@ -97,7 +97,7 @@ text-decoration: underline  coral;
 
     display: inline;
     padding: 1px; padding-bottom: 150px; padding-right: 70px; padding-left: 30px;
-    width: 70px;
+    width: 40px;
     margin: 60px;
     border: 1px solid black;border-radius: 15px;
     background-color: whitesmoke;
@@ -105,16 +105,16 @@ text-decoration: underline  coral;
 #images2 iframe{
     display: inline;
     padding: 1px; padding-bottom: 150px; padding-right: 70px; padding-left: 30px;
-    width: 70px;
+    width: 40px;
     margin: 60px;
     border: 1px solid black;border-radius: 15px;
     background-color: whitesmoke;
 }
 .row4 span{
-    font-size: 40px;
+    font-size: 30px;
     margin: 20px;
     font-weight: bolder;
-    height: 25px;
+    height: 20px;
     display: block;
 }
 .row4 h4{
@@ -123,7 +123,7 @@ text-decoration: underline  coral;
 .row4{
     display: block;
     background-color: rgb(248, 250, 245);
-    height: 300px;
+    height: 200px;
 }
 .row4 img{
    display: inline;
@@ -132,12 +132,22 @@ text-decoration: underline  coral;
 }
 .row5{
     background-color: #F6B400;
-    height: 400px;
+    height: 800px;
 }
 .row5 p{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bolder;
     margin: 40px;
     height: 10px;
     top: 20px;
+}
+.screenshot{
+    float: right;
+    display: flex;
+    height: 500px;
+}
+.row6{
+    background-color: rgb(248, 250, 245);
+    height: 200px;
+    right: 100px;
 }
