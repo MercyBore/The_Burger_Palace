@@ -110,3 +110,12 @@ text-decoration: underline  coral;
     border: 1px solid black;border-radius: 15px;
     background-color: whitesmoke;
 }
+.row4 span{
+    font-size: 50px;
+    margin: 20px;
+    font-weight: bolder;
+    max-height: 50px;
+}
+.row4 h4{
+    font-size: 30px;
+}
