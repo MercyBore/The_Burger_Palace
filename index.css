@@ -114,22 +114,30 @@ text-decoration: underline  coral;
     font-size: 40px;
     margin: 20px;
     font-weight: bolder;
-    height: 30px;
+    height: 25px;
     display: block;
 }
 .row4 h4{
     font-size: 20px;
-    display: block;
 }
 .row4{
     display: block;
     background-color: rgb(248, 250, 245);
-    height: 400px;
+    height: 300px;
 }
 .row4 img{
-   
+   display: inline;
     float: right;
-    display: flex;
-
-    
+    top: 1px;
+}
+.row5{
+    background-color: #F6B400;
+    height: 400px;
+}
+.row5 p{
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 40px;
+    height: 10px;
+    top: 20px;
 }
