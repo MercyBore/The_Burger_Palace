@@ -111,21 +111,25 @@ text-decoration: underline  coral;
     background-color: whitesmoke;
 }
 .row4 span{
-    font-size: 50px;
+    font-size: 40px;
     margin: 20px;
     font-weight: bolder;
-    height: 100px;
+    height: 30px;
+    display: block;
 }
 .row4 h4{
     font-size: 20px;
+    display: block;
 }
 .row4{
-    background-color: rgb(226, 240, 212);
-    height: 500px;
+    display: block;
+    background-color: rgb(248, 250, 245);
+    height: 400px;
 }
 .row4 img{
-    min-height: 500px;
+   
     float: right;
-    width: 500px;
-    margin-top: 100px;
+    display: flex;
+
+    
 }
