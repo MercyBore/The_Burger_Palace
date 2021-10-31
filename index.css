@@ -177,6 +177,9 @@ h3{
     padding-left: 100px;
     font-size: 20px;
 }
+#burger{
+    top: 20px;
+}
 .row7 p{
     display: inline;
     font-size: 20px;
