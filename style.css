@@ -75,4 +75,6 @@
                         max-width: 50%;
                         height: 50%;
                     }                                                            
-  
+  span,h2 {
+    color: blueviolet;
+  }
