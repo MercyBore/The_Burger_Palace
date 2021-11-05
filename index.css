@@ -326,6 +326,9 @@ ul{
     padding: 5px; 
     margin: 0px;
   }
+.email span{
+    margin-right: 2px;
+}
   #bottom{
       display: inline-block;
   }
