@@ -1,271 +1,190 @@
+@import url('Downloads/poppins');
+
 body{
-    font-family: 'poppins' sans-serif ;
+    font-family: 'poppins',sans-serif ;
+
+}
+img{
+    height: 45px;
+    width: 50px;
 }
 a{
     color: black;
     text-decoration: none;
     float:right;
     display: flex;
-    padding: 10px;
+    font-weight: bold;
+    padding-right: 60px;
     flex-direction: row-reverse;
-    justify-content: right;
 }
 .city{
     float: right;
     height: 400px;
     width: 40%;
-    padding: 40px; padding-top: 20px; padding-right: 30px;
+    padding: 40px; padding-top: 1px; padding-right: 30px;
 }
 .burger{
-font-size: 30px;
+font-size: 20px;
 font-weight: bolder;
-font-style: oblique;
-font-family: "poppins";
+left: 1px; margin-top: 1px;
 }
-
-
+.home{
+    text-decoration: underline solid coral 5px;
+}
 nav{
     position: absolute;
     display: flex;
     color: black;
-    top: 5px;
-    right: 30px;
-    font-size: 20px;
+    top: 20px;
+    right: 70px;
+    font-size: 15px;
     margin: 0px;
     padding: 0px;
     letter-spacing: normal;
 
  }
- 
-
-
 h1{
     display: block;
-    margin-left: 20px;
-
+    margin-left: 20px; padding-top: 30px;
+    height: 100px;
 }
 h4{
     display: block;
     margin-left: 20px;
 }
-ul{
-    float: right;
-    display: inline-flex;
-    border: 10px ;
-  
-    
-}
 .order{
     background-color:coral;
-    border: solid 10px coral; border-radius:  20px 20px 0px 20px;
+    border: solid 5px coral; border-radius:  20px 20px 0px 20px;
     text-align: center;
-    height: 20px;
+    height: 20px; 
     width: 80px;
+    font-size: 11px;
     margin: 20px;
-    text-emphasis-color: white;
-    
-    
+    color: #E1EBE6;
 }
 .diagonal{
-    background-color: white;
     background-image: -webkit-linear-gradient(160deg,#F6B400 50%, white 50%);
-    height: 500px;
-    top: 1px;
+     height: 500px;
 }
 
 .row2 {
-   display: inline;
-  height: 300px;
-    width: 100%;
-    text-align: center;
-    padding: 10px 8px;
-  display: flex;
-  background-color: rgb(227, 253, 200);
-
-}
-
-.row2 .one{
-    position: relative;
-    display: inline-block;
-    padding: 8px 20px;
-    background: rgb(179, 241, 179);
-    border-radius: 5px;
-    text-decoration: none;
-    color: rgb(5, 5, 5);
-    margin-top: 20px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    transition: 0.5s;
-}
-.row2 .two{
-    position: relative;
-    display: inline-block;
-    padding: 8px 20px;
-    background: rgb(179, 241, 179);
-    border-radius: 5px;
-    text-decoration: none;
-    color: rgb(5, 5, 5);
-    margin-top: 20px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    transition: 0.5s;
-
-}
-.row2 .three{
-    position: relative;
-  display: inline-block;
-  padding: 8px 20px;
-  background: rgb(179, 241, 179);
-  border-radius: 5px;
-  text-decoration: none;
-  color: rgb(5, 5, 5);
-  margin-top: 20px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  transition: 0.5s;
-}
-.menu img{
-    height: 70px;
-    width: 70px;
-}
-.menu{
-    padding: 5px;
-    margin: 1px;
+    display: inline;
+    height: 300px;margin: 0px;  align-items: center;
+    width: 950px;
+    text-align: center; margin: 0px;
     display: flex;
-    background-color: rgb(207, 252, 209);
+    background-color: rgb(249, 255, 240);
+
+}
+.containers{
+    align-items: center;
+    margin: 100px;
 }
 
-.menu .one {
-    position: relative;
-  display: inline-block;
-  padding:  20px;
-  background: rgb(179, 241, 179);
-  border: 1px;
-  border-radius: 5px;
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  margin-top: 20px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  transition: 0.5s;
+.row2 .a{
+    display: inline-block;
+    padding: 20px;  margin-top: 40px;
+    height: 150px; width: 150px;
+    font-size: 10px; margin: 20px;
+    border: 1px solid black; border-radius: 5px;
+    color: rgb(5, 5, 5);
+   
 }
-.menu .two {
-    position: relative;
-  display: inline-block;
-  padding:  20px;
-  background: rgb(179, 241, 179);
-  border: 1px;
-  border-radius: 5px;
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  margin-top: 20px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  transition: 0.5s;
+.row2 .b{
+    display: inline-block;
+    padding: 20px; 
+    height: 250px; width: 150px;
+    font-size: 10px; margin: 20px;
+    border: 1px solid black; border-radius: 5px;
+    color: rgb(5, 5, 5);
 }
-
-.menu .three{
-    position: relative;
-  display: inline-block;
-  padding:  20px;
-  background: rgb(179, 241, 179);
-  border: 1px;
-  border-radius: 5px;
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  margin-top: 20px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  transition: 0.5s;
+.row2 .c{
+    display: inline-block;
+    padding: 20px; 
+    height: 150px; width: 150px;
+    font-size: 10px; margin: 20px;
+    border: 1px solid black; border-radius: 5px;
+    color: rgb(5, 5, 5);
 }
-
-.menu .four {
-    position: relative;
-  display: inline-block;
-  padding:  20px;
-  background: rgb(179, 241, 179);
-  border: 1px;
-  border-radius: 5px;
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  margin-top: 20px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  transition: 0.5s;
+ .containers{
+    display: inline;
 }
-
-.menu .five {
-    position: relative;
-  display: inline-block;
-  padding:  20px;
-  background: rgb(179, 241, 179);
-  border: 1px;
-  border-radius: 5px;
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  margin-top: 20px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  transition: 0.5s;
+.row3 {
+    height: 800px;
 }
-
-.menu .six {
-    position: relative;
-  display: inline-block;
-  padding:  20px;
-  background: rgb(179, 241, 179);
-  border: 1px;
-  border-radius: 5px;
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  margin-top: 20px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  transition: 0.5s;
-}
-
-
-
 #content{
     margin: 20px;
     border-top: 10px solid white;
     text-align: center;
     font-size: 30px;
     font-weight: bolder;
-    font-family: "poppins";
     text-decoration: underline  coral;
 }
 
-.row4 span{
-    font-size: 30px;
-    margin: 20px;
-    padding: 10px;
-    font-weight: bolder;
-    height: 20px;
-    display: block;
-}
-.row5 > img{
-    height: 30px;
-    width: 30px;
-}
-.menu{
+
+
+.menu1, .menu2{
     display: flex;
+    margin: 50px;
+}
+.one, .two, .three, .four, .five, .six {
+    background-color: white;
+    text-align:center;
+    padding: 0px; 
+    width: 50%;
+    margin: 3%;
+    height: 270px;  border-radius: 15px; border: 3px;
+    box-shadow:  0px 4px 3px 0px rgba(0, 0, 0, 0.5);
+}
+.one, .two, .three, .four, .five, .six p{
+    font-size: 12px;
+}
+
+.row3 .container img{
+    height: 130px;
+    width: 150px;
 }
 .row4 h4{
     font-size: 20px;
 }
-.row4{
+.row4 span{
+    font-size: 30px;
+    padding: 10px 60px;
+    font-weight: bolder;
+    height: 20px;
     display: block;
-    background-color: rgb(248, 250, 245);
-    width: auto;
-    height: 400px;
-    overflow: hidden;
+}
+.row4{
+background-color: rgb(242, 250, 241);
+display: flex;
+padding: 50px;
 }
 .row4 img{
-   display: block;
-    float: right;
-    height: 200px;
+    height: 500px;
+    width: 500px;
+}
+.span{
+flex-basis: 100%;    
+}
+.row4img{
+display: flex;
+flex-direction: column;
+flex-basis: 100%;
+padding: 0px;
+
 }
 .row5{
     background-color: #F6B400;
-    height: 500px;
+    height: 500px; 
+}
+.row5 > img{
+    height: 20px;
+    width: 50px;
 }
 .row5 p{
     font-size: 20px;
     font-weight: bolder;
-    margin: 30px; margin-top: 20px;
-    padding:5px
+    padding:  2px  100px; padding-top: 30px;
 }
 .row5 .screenshot{
     float: right;
@@ -274,57 +193,53 @@ ul{
     width: 300px;
 }
 .row5 .playstore{
-    height: 150px;
+    height: 100px;
     width: 300px;
 }
 .row6{
     background-color: rgb(248, 250, 245);
-    height: 400px;
+    height: 300px;
 }
 .aref{
     position: absolute;
     display: flex;
+    align-items: left;
     flex-direction: column;
     color: black;
     font-size: 20px;
-
-
-}
-.row6 a{
-    display: block;
     padding-left: 200px;
 
 
 }
-#bottom p{
-    display: inline;
-    padding-left: 200px;
-    font-size: 20px;
+#copyright {
+   display: inline;
 
 }
-#bottom h4{
-    padding-left: 600px;
-}
-#copyright p{
-    margin: 1px;
-    font-size: 20px;
+#design {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    padding: 0px;
+
 }
 #burger span{
     top: 20px;
     font-size: 30px;
     font-weight: bolder;
 }
-.row7 p{
-    display: inline;
-    font-size: 20px;
-    padding-left: 70px;padding-bottom: 1px;
+.row7 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+#bottom h4{
+    padding-left: 500px;
 }
 #bottom .email {
     width: 300px;
     float: right;
     border: 1px solid black; border-radius: 5px;
     padding: 5px; 
-    margin: 0px;
+    margin-right: 10px;
   }
 .email span{
     margin-right: 2px;
