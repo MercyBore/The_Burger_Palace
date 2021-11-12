@@ -14,14 +14,14 @@ a{
     float:right;
     display: flex;
     font-weight: bold;
-    padding-right: 60px;
+    padding-right: 40px;
     flex-direction: row-reverse;
 }
 .city{
     float: right;
     height: 400px;
     width: 40%;
-    padding: 40px; padding-top: 1px; padding-right: 30px;
+    padding: 40px; padding-top: 1px; padding-right: 25px;
 }
 .burger{
 font-size: 20px;
@@ -36,13 +36,15 @@ nav{
     display: flex;
     color: black;
     top: 20px;
-    right: 70px;
-    font-size: 15px;
+    right: 40px;
+    font-size: 13px;
     margin: 0px;
     padding: 0px;
     letter-spacing: normal;
-
- }
+}
+.basket{
+    height: 20px; width: 20px;
+}
 h1{
     display: block;
     margin-left: 20px; padding-top: 30px;
@@ -81,9 +83,9 @@ h4{
     margin: 100px;
 }
 
-.row2 .a{
+.row2 .a, .c{
     display: inline-block;
-    padding: 20px;  margin-top: 40px;
+    padding: 20px;  
     height: 150px; width: 150px;
     font-size: 10px; margin: 20px;
     border: 1px solid black; border-radius: 5px;
@@ -98,14 +100,7 @@ h4{
     border: 1px solid black; border-radius: 5px;
     color: rgb(5, 5, 5);
 }
-.row2 .c{
-    display: inline-block;
-    padding: 20px; 
-    height: 150px; width: 150px;
-    font-size: 10px; margin: 20px;
-    border: 1px solid black; border-radius: 5px;
-    color: rgb(5, 5, 5);
-}
+
  .containers{
     display: inline;
 }
@@ -127,6 +122,7 @@ h4{
     display: flex;
     margin: 50px;
 }
+
 .one, .two, .three, .four, .five, .six {
     background-color: white;
     text-align:center;
@@ -141,23 +137,23 @@ h4{
 }
 
 .row3 .container img{
-    height: 130px;
-    width: 150px;
+    height: 100px;
+    width: 130px;
 }
+
 .row4 h4{
     font-size: 20px;
 }
 .row4 span{
     font-size: 30px;
-    padding: 10px 60px;
+    padding: 10px 30px;
     font-weight: bolder;
-    height: 20px;
+    height: 30px;
     display: block;
 }
 .row4{
 background-color: rgb(242, 250, 241);
 display: flex;
-padding: 50px;
 }
 .row4 img{
     height: 500px;
@@ -184,7 +180,7 @@ padding: 0px;
 .row5 p{
     font-size: 20px;
     font-weight: bolder;
-    padding:  2px  100px; padding-top: 30px;
+    padding:  0px 70px; padding-top: 20px;
 }
 .row5 .screenshot{
     float: right;
@@ -232,17 +228,17 @@ padding: 0px;
     color: rgb(0, 0, 0);
 }
 #bottom h4{
-    padding-left: 500px;
+    padding-left: 400px;
 }
-#bottom .email {
-    width: 300px;
+#bottom .email p {
+    width: 250px; height: 17px;
     float: right;
     border: 1px solid black; border-radius: 5px;
-    padding: 5px; 
+    padding: 1px; 
     margin-right: 10px;
   }
 .email span{
-    margin-right: 2px;
+    margin-right: 1px;
 }
   #bottom{
       display: inline-block;
